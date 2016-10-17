@@ -10,8 +10,55 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.kaniar_kode.score.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/H"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerInParent="true"
+        android:onClick="selfDestruct" />
+
+    <Button
+        android:id="@+id/PH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/H" />
+
+    <Button
+        android:id="@+id/U18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PH" />
+
+    <Button
+        android:id="@+id/U16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/U18" />
 </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
