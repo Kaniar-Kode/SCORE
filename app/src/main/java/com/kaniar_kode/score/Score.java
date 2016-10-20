@@ -18,8 +18,12 @@ public class Score extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
 
-        getActionBar().setHomeButtonEnabled(true);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+        android.app.ActionBar actionBar = getActionBar();
+        if(actionBar != null){
+            actionBar.setTitle(getResources().getString(R.string.app_name));
+            actionBar.setDisplayHomeAsUpEnabled(true);
+//            actionBar.setIcon(R.drawable.app_icon);
+        }
     }
 
     @Override
