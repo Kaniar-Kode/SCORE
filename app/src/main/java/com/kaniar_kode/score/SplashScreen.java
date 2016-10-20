@@ -15,13 +15,11 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-//        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-
         Thread timerThread = new Thread() {
             @Override
             public void run() {
                 try {
-                    sleep(5000);
+                    sleep(2500);
                 } catch (InterruptedException e)
                 {
                     e.printStackTrace();

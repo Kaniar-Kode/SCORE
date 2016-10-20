@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         final Button honneur = (Button) findViewById(R.id.H);
         honneur.setText("HONNEUR");
+        honneur.setTextSize(24);
 
         honneur.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         final Button promotion = (Button) findViewById(R.id.PH);
         promotion.setText("PROMOTION HONNEUR");
+        promotion.setTextSize(24);
 
         promotion.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         final Button phliponeau = (Button) findViewById(R.id.U18);
         phliponeau.setText("PHLIPONEAU (U18)");
+        phliponeau.setTextSize(24);
 
         phliponeau.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         final Button teuliere = (Button) findViewById(R.id.U16);
         teuliere.setText("TEULIÈRE (U16)");
+        teuliere.setTextSize(24);
 
         teuliere.setOnClickListener(new View.OnClickListener() {
             @Override
