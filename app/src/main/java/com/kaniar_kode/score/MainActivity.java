@@ -12,8 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        System.out.println("Test!");
-
         final Button honneur = (Button) findViewById(R.id.H);
         honneur.setText("HONNEUR");
 

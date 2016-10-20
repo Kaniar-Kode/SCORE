@@ -19,13 +19,5 @@ public class Score extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_score);
 
-        ImageView iv = new ImageView(getApplicationContext());
-        iv.getResources().getDrawable(R.drawable.coq);
-
-        LinearLayoutCompat.LayoutParams lp = new LinearLayoutCompat.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-
-        iv.setLayoutParams(lp);
-
-        rl.addView(iv);
     }
 }

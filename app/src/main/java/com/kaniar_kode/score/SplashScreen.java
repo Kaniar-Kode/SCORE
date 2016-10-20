@@ -8,13 +8,7 @@ import android.widget.ImageView;
 
 public class SplashScreen extends AppCompatActivity {
 
-    String uri = "@drawable/drawable-hdpi/splashscreen-hdpi.png";  // where myresource (without the extension) is the file
 
-    int imageResource = getResources().getIdentifier(uri, null, getPackageName());
-
-    ImageView iv = (ImageView)findViewById(R.id.ss);
-    Drawable res = getResources().getDrawable(imageResource);
-    iv.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +18,7 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    sleep(2000);
+                    sleep(10000);
                 } catch (InterruptedException e)
                 {
                     e.printStackTrace();
